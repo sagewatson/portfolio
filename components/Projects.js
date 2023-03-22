@@ -28,7 +28,7 @@ const Projects = () => {
           <ProjectItem
             title="Developer's Institute"
             backgroundImg={diImg}
-            projectUrl="/watsons-pp"
+            projectUrl="/developers-institute"
           />
         </div>
       </div>
