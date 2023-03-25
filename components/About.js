@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import sageImg from "../public/assets/sage.JPG";
+import sageImg from "../public/assets/sage-pic.jpg";
 import Image from "next/image";
 
 const About = () => {
