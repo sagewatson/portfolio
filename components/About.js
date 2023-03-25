@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -11,25 +12,24 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">Lorem ipsum</p>
           <p className="py-2 text-gray-600">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
+            Since I was young, I've always had a passion for technology. Getting
+            my first computer at 5, I was obssessed. In 2021, I decided that I
+            wanted to turn my passion into my career. Studying at Developers
+            Institute, I graduated in 2022 with a Diploma in Web Development.
+            Shortly after, I was hired by Developers Institute and working as a
+            Junior Trainer, helping people in the same shoes as I was, while
+            also working on projects with the company.
           </p>
           <p className="py-2 text-gray-600">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
+            Fast forward to today, and I've had the opportunity to work on
+            various projects and expand my skills to new technologies. I've
+            worked on things such as creating an e-commerce website using the
+            Stripe and Woocommerce API, creating sites for brands and working in
+            teams using Agile practices. With much more to learn and a lot more
+            to create, I'm ready and keen to keep growing.
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">
-            Check out some of my latest projects
+            <Link href="#projects">Check out some of my latest projects</Link>
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">

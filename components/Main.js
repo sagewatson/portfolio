@@ -16,9 +16,10 @@ const Main = () => {
           </h1>
           <h1 className="py-4 text-gray-700">A Front-End Web Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."
+            As a front-end web developer, I specialize in creating engaging and
+            user-friendly websites that leave a lasting impression on visitors.
+            With additional skills in design, databases and javascript back-end
+            languages, the potential is limitless
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
