@@ -27,16 +27,23 @@ const fussey = () => {
           <p>Project </p>
           <h2>Overview</h2>
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
+            Fussey is a project I worked on soley by myself. It's a clothing
+            brand I created in 2022 and decided to use my development skills to
+            create the website for it. It uses Wordpress/Woocommerce/Stripe in
+            the backend and Next.js/React.js in the frontend. This was certainly
+            the most challenging project I've worked on as I had to do things
+            such as using Tailwind and Next.js for the first time while also
+            using things like the Stripe and Woocommerce API, GraphQL and more.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <Link href="https://fussey.co" target="_blank">
+            <button className="px-8 py-2 mt-4 mr-8">Live Site</button>
+          </Link>
+          <Link
+            href="https://github.com/sagewatson/woocommerce-fussey-theme"
+            target="_blank"
+          >
+            <button className="px-8 py-2 mt-4">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

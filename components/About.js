@@ -1,5 +1,7 @@
 import Link from "next/link";
 import React from "react";
+import sageImg from "../public/assets/sage.JPG";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -10,7 +12,7 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600">Lorem ipsum</p>
+          <p className="py-2 text-gray-600">Sage Watson</p>
           <p className="py-2 text-gray-600">
             Since I was young, I've always had a passion for technology. Getting
             my first computer at 5, I was obssessed. In 2021, I decided that I
@@ -33,10 +35,7 @@ const About = () => {
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <img
-            className="rounded-xl"
-            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80"
-          />
+          <Image className="rounded-xl" src={sageImg} />
         </div>
       </div>
     </div>

@@ -17,7 +17,7 @@ const DevelopersInstitute = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Watson's Panel & Paint</h2>
+          <h2 className="py-2">Developers Institute</h2>
           <h3>Next.js/React.Js</h3>
         </div>
       </div>
@@ -27,16 +27,18 @@ const DevelopersInstitute = () => {
           <p>Project </p>
           <h2>Overview</h2>
           <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
+            Developers Institute is where I currently work and for a few months
+            I got the opportunity to work on their brand website. I got to work
+            in a team with one other person using Agile and Lean practices. Our
+            task was to transfer the existing website over to a new CMS
+            (Prismic). My specific tasks included updating legacy code,
+            refactoring CSS to SCSS and to use CSS modules, creating pages,
+            components and things called 'Slices' using Prismic's Slice Machine
+            and rendering the content on the page.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <Link href="https://www.developers.ac.nz/" target="_blank">
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -50,6 +52,12 @@ const DevelopersInstitute = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Primsic CMS
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> SCSS
               </p>
             </div>
           </div>
