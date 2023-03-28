@@ -34,7 +34,7 @@ const watsonsPp = () => {
             used a service called Formspree to manage the contact forms.
           </p>
           <Link href="https://watsonspp.co.nz/" target="_blank">
-            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            <button className="px-8 py-2 mt-4 mr-8">Live Site</button>
           </Link>
           <Link
             href="https://github.com/sagewatson/watsons-panel-and-paint"
