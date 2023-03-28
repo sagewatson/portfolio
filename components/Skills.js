@@ -8,6 +8,10 @@ import tailwindImg from "../public/assets/skills/tailwind.png";
 import githubImg from "../public/assets/skills/github1.png";
 import nextImg from "../public/assets/skills/nextjs.png";
 import mongoImg from "../public/assets/skills/mongo.png";
+import postgresImg from "../public/assets/skills/postgresql.png";
+import graphqlImg from "../public/assets/skills/graphql.png";
+import wordpressImg from "../public/assets/skills/wordpress.png";
+import sassImg from "../public/assets/skills/sass.png";
 
 const Skills = () => {
   return (
@@ -95,6 +99,46 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Mongo DB</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={postgresImg} width="64" height="64" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>PostgreSQL</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={graphqlImg} width="64" height="64" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>GraphQL</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={wordpressImg} width="64" height="64" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Wordpress</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={sassImg} width="64" height="64" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>SASS</h3>
               </div>
             </div>
           </div>
