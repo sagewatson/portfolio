@@ -5,6 +5,7 @@ import fusseyImg from "../public/assets/projects/fussey.png";
 import watsonsPpImg from "../public/assets/projects/watsons-pp.png";
 import ProjectItem from "./ProjectItem";
 import diImg from "../public/assets/projects/di.png";
+import cryptoImg from "../public/assets/projects/crypto-tracker.png";
 
 const Projects = () => {
   return (
@@ -19,16 +20,25 @@ const Projects = () => {
             title="Fussey"
             backgroundImg={fusseyImg}
             projectUrl="/fussey"
+            languages="Next.js/React"
           />
           <ProjectItem
             title="Watson's Panel & Paint"
             backgroundImg={watsonsPpImg}
             projectUrl="/watsons-pp"
+            languages="Next.js/React"
           />
           <ProjectItem
             title="Developer's Institute"
             backgroundImg={diImg}
             projectUrl="/developers-institute"
+            languages="Next.js/React"
+          />
+          <ProjectItem
+            title="Crypto Tracker"
+            backgroundImg={cryptoImg}
+            projectUrl="/crypto-tracker"
+            languages="React"
           />
         </div>
       </div>

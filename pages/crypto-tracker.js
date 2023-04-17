@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import fusseyImg from "../public/assets/projects/fussey.png";
+import cryptoImg from "../public/assets/projects/crypto-tracker.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const fussey = () => {
+const CryptoTracker = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,12 +13,12 @@ const fussey = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={fusseyImg}
+          src={cryptoImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Fussey</h2>
-          <h3>Next.js/React.Js/Tailwind/Stripe API</h3>
+          <h2 className="py-2">Crypto Tracker App</h2>
+          <h3>React.Js/CSS/Crypto API</h3>
         </div>
       </div>
 
@@ -27,21 +27,20 @@ const fussey = () => {
           <p>Project </p>
           <h2>Overview</h2>
           <p>
-            Fussey is a project I worked on soley by myself. It's a clothing
-            brand I created in 2022 and decided to use my development skills to
-            create the website for it. It uses Wordpress/Woocommerce/Stripe in
-            the backend and Next.js/React.js in the frontend. This was certainly
-            the most challenging project I've worked on as I had to do things
-            such as using Tailwind and Next.js for the first time while also
-            using things like the Stripe and Woocommerce API, GraphQL and more.
+            Crypto Tracker was a fun personal desktop application project that I
+            created. The purpose of this project was to create an app which
+            accurately tracked the price of cryptocurrency coins, while
+            displaying them in an easy to use UI. I also wanted a section which
+            highlighted trending coins which have had a big increase in price in
+            the last 24 hours.
           </p>
-          <Link href="https://fussey.co" target="_blank">
-            <button className="px-8 py-2 mt-4 mr-8">Live Site</button>
-          </Link>
           <Link
-            href="https://github.com/sagewatson/woocommerce-fussey-theme"
+            href="https://crypto-tracker-0tna.onrender.com/"
             target="_blank"
           >
+            <button className="px-8 py-2 mt-4 mr-8">Live Site</button>
+          </Link>
+          <Link href="https://github.com/sagewatson/crypto-app" target="_blank">
             <button className="px-8 py-2 mt-4">Code</button>
           </Link>
         </div>
@@ -53,19 +52,13 @@ const fussey = () => {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Next.js
+                <RiRadioButtonFill className="pr-1" /> CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Stripe API
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Woocommerce API
+                <RiRadioButtonFill className="pr-1" /> CoinGecko API
               </p>
             </div>
           </div>
@@ -78,4 +71,4 @@ const fussey = () => {
   );
 };
 
-export default fussey;
+export default CryptoTracker;

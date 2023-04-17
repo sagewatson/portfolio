@@ -51,7 +51,7 @@ const watsonsPp = () => {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Next.Js
+                <RiRadioButtonFill className="pr-1" /> Next.js
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
