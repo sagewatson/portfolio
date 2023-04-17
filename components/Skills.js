@@ -10,8 +10,8 @@ import nextImg from "../public/assets/skills/nextjs.png";
 import mongoImg from "../public/assets/skills/mongo.png";
 import postgresImg from "../public/assets/skills/postgresql.png";
 import graphqlImg from "../public/assets/skills/graphql.png";
-import wordpressImg from "../public/assets/skills/wordpress.png";
-import sassImg from "../public/assets/skills/sass.png";
+import expressImg from "../public/assets/skills/express.png";
+import nodeImg from "../public/assets/skills/node.png";
 
 const Skills = () => {
   return (
@@ -78,7 +78,7 @@ const Skills = () => {
                 <Image src={githubImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Github</h3>
+                <h3>Git</h3>
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ const Skills = () => {
                 <Image src={nextImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Next.Js</h3>
+                <h3>Next.js</h3>
               </div>
             </div>
           </div>
@@ -125,20 +125,20 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={wordpressImg} width="64" height="64" alt="/" />
+                <Image src={expressImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Wordpress</h3>
+                <h3>Express.js</h3>
               </div>
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={sassImg} width="64" height="64" alt="/" />
+                <Image src={nodeImg} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>SASS</h3>
+                <h3>Node.js</h3>
               </div>
             </div>
           </div>
