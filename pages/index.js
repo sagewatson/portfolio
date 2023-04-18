@@ -25,5 +25,3 @@ export default function Home() {
     </>
   );
 }
-
-// TODO - Update ico image, update ALT tags,

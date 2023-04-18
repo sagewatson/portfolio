@@ -55,7 +55,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image src={mainLogo} alt="/" width="150" height="49" />
+          <Image src={mainLogo} alt="SW Logo" width="150" height="49" />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -100,7 +100,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image src={mainLogo} width="150" height="49" alt="/" />
+                <Image src={mainLogo} width="150" height="49" alt="SW Logo" />
               </Link>
               <div
                 onClick={handleNav}
