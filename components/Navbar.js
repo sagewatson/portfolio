@@ -18,7 +18,8 @@ const Navbar = () => {
     if (
       router.asPath === "/fussey" ||
       router.asPath === "/watsons-pp" ||
-      router.asPath === "/developers-institute"
+      router.asPath === "/developers-institute" ||
+      router.asPath === "/crypto-tracker"
     ) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
@@ -99,12 +100,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image
-                  src="/../public/assets/sw-logo.png"
-                  width="150"
-                  height="49"
-                  alt="/"
-                />
+                <Image src={mainLogo} width="150" height="49" alt="/" />
               </Link>
               <div
                 onClick={handleNav}
