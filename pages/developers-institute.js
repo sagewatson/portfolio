@@ -27,9 +27,9 @@ const DevelopersInstitute = () => {
           <p>Project </p>
           <h2>Overview</h2>
           <p>
-            Developers Institute is where I currently work and for a few months
-            I got the opportunity to work on their brand website. I got to work
-            in a team with one other person using Agile and Lean practices. Our
+            Developers Institute is where I used to work and for a few months I
+            got the opportunity to work on their brand website. I got to work in
+            a team with one other person using Agile and Lean practices. Our
             task was to transfer the existing website over to a new CMS
             (Prismic). My specific tasks included updating legacy code,
             refactoring CSS to SCSS and to use CSS modules, creating pages,

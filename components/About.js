@@ -18,17 +18,24 @@ const About = () => {
             my first computer at 5, I was obssessed. In 2021, I decided that I
             wanted to turn my passion into my career. Studying at Developers
             Institute, I graduated in 2022 with a Diploma in Web Development.
-            Shortly after, I was hired by Developers Institute and working as a
-            Junior Trainer, helping people in the same shoes as I was, while
-            also working on projects with the company.
+            Shortly after, I was hired by Developers Institute, getting the
+            opportunity to help students learn coding and also work on projects
+            with the company.
           </p>
           <p className="py-2 text-gray-600">
             Fast forward to today, and I've had the opportunity to work on
-            various projects and expand my skills to new technologies. I've
-            worked on things such as creating an e-commerce website using the
-            Stripe and Woocommerce API, creating sites for brands and working in
-            teams using Agile practices. With much more to learn and a lot more
-            to create, I'm ready and keen to keep growing.
+            various projects and expand my skills to new technologies. Through
+            my experience, I've found I enjoy working with the backend side of
+            things but am much more passionate about the frontend. This
+            influenced a lot of the stacks I worked with when creating projects.
+            I've worked on things such as creating an e-commerce website using
+            the Stripe and Woocommerce API, along with languages that were new
+            to me, such as GraphQL. I've created sites for real brands using
+            frameworks/languages such as React, Tailwind (and my favourite,
+            Next.js). I've also grown my personal and team skills through things
+            such as working in teams which use Agile and Lean practices. With
+            much more to learn and a lot more to create, I'm ready and keen to
+            keep growing.
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">
             <Link href="#projects">Check out some of my latest projects</Link>

@@ -15,12 +15,13 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I'm <span className="text-[#5651e5]">Sage</span>
           </h1>
-          <h1 className="py-4 text-gray-700">A Front-End Web Developer</h1>
+          <h1 className="py-4 text-gray-700">A Full-Stack Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            As a front-end web developer, I specialize in creating engaging and
-            user-friendly websites that leave a lasting impression on visitors.
-            With additional skills in design, databases and javascript back-end
-            languages, the potential is limitless
+            As a Full-Stack Developer, I specialize in creating engaging and
+            user-friendly web applications and software that leave a lasting
+            impression on visitors. With strong knowledge in frontend languages
+            and plenty of experience in backend technologies (with a great eye
+            for design too), I am well versed to take on any challenge.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link
