@@ -38,7 +38,7 @@ const Contact = () => {
 
               <div>
                 <h2 className="py-2">Sage</h2>
-                <p>Front-end Developer</p>
+                <p>Full-Stack Developer</p>
                 <p className="py-4">Let's talk</p>
               </div>
               <div>
